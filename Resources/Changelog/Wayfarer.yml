@@ -3565,3 +3565,10 @@ Entries:
   id: 6903
   time: '2026-05-21T16:59:28.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/929
+- author: stinkiestdog
+  changes:
+    - type: Tweak
+      message: Collars can now be engraved.
+  id: 6904
+  time: '2026-05-21T16:59:56.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/927
