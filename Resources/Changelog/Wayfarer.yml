@@ -3633,3 +3633,10 @@ Entries:
   id: 6911
   time: '2026-05-22T19:36:48.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/957
+- author: Luweth
+  changes:
+    - type: Tweak
+      message: Changes Vox marking to proper formatting so they may be told apart.
+  id: 6912
+  time: '2026-05-22T22:57:09.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/960
