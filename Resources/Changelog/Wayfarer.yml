@@ -3702,3 +3702,10 @@ Entries:
   id: 6920
   time: '2026-05-23T01:12:52.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/962
+- author: DevArchwave
+  changes:
+    - type: Fix
+      message: The Arribane is now properly added to Edison's shipyard console.
+  id: 6921
+  time: '2026-05-25T01:20:03.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/965
