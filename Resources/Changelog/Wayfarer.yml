@@ -3960,3 +3960,14 @@ Entries:
   id: 6952
   time: '2026-05-28T23:44:00.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1031
+- author: Rellu225
+  changes:
+    - type: Add
+      message: Community goal computers and pallets.
+    - type: Tweak
+      message: Position of sell pallets and computer.
+    - type: Fix
+      message: Unpowered light at Dusk
+  id: 6953
+  time: '2026-05-28T23:53:52.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1017
