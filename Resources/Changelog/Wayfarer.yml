@@ -4008,3 +4008,14 @@ Entries:
   id: 6956
   time: '2026-05-30T00:52:15.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1035
+- author: VVersengt
+  changes:
+    - type: Add
+      message: >-
+        Added additional shipbuilding components to the RCD, and gave it a huge
+        buff.
+    - type: Fix
+      message: Reinforced windows now use the correct textures.
+  id: 6957
+  time: '2026-05-31T17:16:42.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1051
