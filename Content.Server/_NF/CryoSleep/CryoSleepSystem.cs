@@ -81,6 +81,10 @@ public sealed partial class CryoSleepSystem : EntitySystem
     [Dependency] private readonly IServerPreferencesManager _prefsManager = default!;
     [Dependency] private readonly InventorySystem _inventory = default!; //For cryosleep warnings
     [Dependency] private readonly HandsSystem _hands = default!;
+
+
+    [Dependency] private readonly Shared.Roles.SharedRoleSystem _roles = default!; // Wayfarer
+    [Dependency] private readonly StationSystem _station = default!; // Wayfarer
     [Dependency] private readonly GameTicker _gameTicker = default!; // Wayfarer
     [Dependency] private readonly PlayTimeTrackingManager _playTimeTracking = default!; // Wayfarer
 

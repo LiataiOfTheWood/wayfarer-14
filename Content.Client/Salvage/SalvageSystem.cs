@@ -51,17 +51,6 @@ public sealed class SalvageSystem : SharedSalvageSystem
         ev.Cancelled = true;
     }
 
-    // Frontier: resolve expedition comp
-    public override bool ResolveExpedition(EntityUid? uid, ref SharedSalvageExpeditionComponent? component)
-    {
-        if (component is not null)
-            return true;
-
-        TryComp<SalvageExpeditionComponent>(uid, out var localComp);
-        component = localComp;
-        return component != null;
-    }
-
     private void SetMusicVolume(float volume)
     {
         var expedQuery = EntityQueryEnumerator<SalvageExpeditionComponent>();
