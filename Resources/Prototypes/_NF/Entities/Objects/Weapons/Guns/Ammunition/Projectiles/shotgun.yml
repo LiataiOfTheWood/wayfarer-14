@@ -19,11 +19,7 @@
   - type: Projectile
     damage:
       types:
-<<<<<<< HEAD
-        Piercing: 6 #Wayfarer 5 -> 6
-=======
         Piercing: 6.25
->>>>>>> frontier/master
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -34,13 +30,8 @@
   - type: Projectile
     damage:
       types:
-<<<<<<< HEAD
-        Blunt: 1.8 #Wayfarer -> 2.4 -> 1.8
-        Heat: 2.2 #Wayfarer 1.6 -> 2.2
-=======
         Blunt: 3
         Heat: 2
->>>>>>> frontier/master
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -62,14 +53,8 @@
   - type: Projectile
     damage:
       types:
-<<<<<<< HEAD
-        Blunt: 2.5 #Wayfarer
-        Piercing: 3.5
-        Radiation: 1.5 #Wayfarer 3.5 -> 1.5
-=======
         Piercing: 4.4
         Radiation: 4.4
->>>>>>> frontier/master
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -197,13 +182,8 @@
   - type: Projectile
     damage:
       types:
-<<<<<<< HEAD
-        Piercing: 32.5 #Wayfarer 30 -> 32.5
-        Blunt: 6 #Wayfarer 5 -> 6
-=======
         Piercing: 25
         Blunt: 6.25
->>>>>>> frontier/master
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -214,11 +194,7 @@
   - type: Projectile
     damage:
       types:
-<<<<<<< HEAD
-        Blunt: 9 #Wayfarer 10 -> 9
-=======
         Blunt: 12.5
->>>>>>> frontier/master
   - type: StaminaDamageOnCollide
     damage: 25 # 5 hits to stun WF reduction stamina rebalance ##Wayfarer 24 -> 25
 
