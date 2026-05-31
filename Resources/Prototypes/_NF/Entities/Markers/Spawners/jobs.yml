@@ -207,7 +207,7 @@
   name: public affairs liaison
   components:
   - type: SpawnPoint
-    job_id: PublicAffairsLiaison
+    job_id: SeniorOfficer # Wayfarer: Changed to generic CGP
 
 - type: entity
   id: NFSpawnPointJanitor
