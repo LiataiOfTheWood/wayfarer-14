@@ -4190,3 +4190,10 @@ Entries:
   id: 6977
   time: '2026-06-03T23:06:29.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1075
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: Changed Toolbox Sprites
+  id: 6978
+  time: '2026-06-03T23:07:12.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1077
