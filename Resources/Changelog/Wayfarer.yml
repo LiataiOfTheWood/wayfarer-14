@@ -4176,3 +4176,10 @@ Entries:
   id: 6975
   time: '2026-06-03T22:55:52.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1070
+- author: Feathernights
+  changes:
+    - type: Fix
+      message: Fixed Slime People not being able to use Tail or Snout markings.
+  id: 6976
+  time: '2026-06-03T23:05:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1076
