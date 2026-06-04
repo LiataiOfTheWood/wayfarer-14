@@ -4206,3 +4206,12 @@ Entries:
   id: 6979
   time: '2026-06-03T23:10:20.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1078
+- author: VVersengt
+  changes:
+    - type: Fix
+      message: Fixed a missing light in the Scryer and slightly reworked interior.
+    - type: Fix
+      message: Hamger price adjusted and no longer has two salvage fabs.
+  id: 6980
+  time: '2026-06-04T01:21:25.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1088
