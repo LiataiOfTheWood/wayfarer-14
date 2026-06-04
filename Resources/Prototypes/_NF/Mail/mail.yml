@@ -551,6 +551,10 @@
     - id: PlushieGoblin
       prob: 0.05
       orGroup: Plushie
+    # Wayfarer: EXPIEEE
+    - id: PlushieExperiment
+      orGroup: Plushie
+    # End Wayfarer
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -1114,7 +1118,7 @@
     contents:
     - id: ClothingHeadHatPwig
     - id: NFWeaponRifleMusket
-    - id: CartridgeAntiMateriel
+    - id: NFCartridgeRifle60 # Wayfarer
       amount: 2
     - id: PaperMailNTMusket
 

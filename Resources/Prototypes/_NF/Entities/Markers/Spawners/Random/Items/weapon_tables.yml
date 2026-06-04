@@ -149,7 +149,7 @@
   id: TableDungeonLootWeaponsMeleeUnique
   table: !type:GroupSelector
     children:
-    - id: HyperEutacticBlade
+    #- id: HyperEutacticBlade # Wayfarer: No. Absolutely not. Admin item.
     - id: ArmBlade
     - id: Kanabou
 
