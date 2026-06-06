@@ -96,7 +96,7 @@
   - ShipyardBrigand # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardCharon # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardPathfinder # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
-  - ShipyardReclaimer
+  - ShipyardBehir
   - ShipyardScryer
 
 - type: guideEntry
@@ -132,7 +132,7 @@
   text: "/ServerInfo/_WF/Guidebook/Shipyard/ScrapShipyard.xml"
   priority: 7
   children:
-  - ShipyardBeater
+  - ShipyardMephit
   - ShipyardConstruct # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardGeode # FrontierShip Resources/Prototypes/_NF/Guidebook/shipyard.yml
   - ShipyardIcarus
@@ -161,9 +161,9 @@
     #  example you have a staff ship that also is in the civilian ship yard the files would go to civilian
 
 - type: guideEntry
-  id: ShipyardBeater
-  name: guide-entry-shipyard-beater
-  text: "/ServerInfo/_WF/Guidebook/Shipyard/ScrapShipyard/Beater.xml"
+  id: ShipyardMephit
+  name: guide-entry-shipyard-mephit
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/ScrapShipyard/Mephit.xml"
 
 - type: guideEntry
   id: ShipyardBuckler
@@ -266,9 +266,9 @@
   text: "/ServerInfo/_WF/Guidebook/Shipyard/ScrapShipyard/Ratrod.xml"
 
 - type: guideEntry
-  id: ShipyardReclaimer
-  name: guide-entry-shipyard-reclaimer
-  text: "/ServerInfo/_WF/Guidebook/Shipyard/ExpedShipyard/Reclaimer.xml"
+  id: ShipyardBehir
+  name: guide-entry-shipyard-behir
+  text: "/ServerInfo/_WF/Guidebook/Shipyard/ExpedShipyard/Behir.xml"
 
 - type: guideEntry
   id: ShipyardScryer
