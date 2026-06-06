@@ -4321,3 +4321,10 @@ Entries:
   id: 6994
   time: '2026-06-06T10:27:03.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1105
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: A few vroid/exped vending machines now have general access.
+  id: 6995
+  time: '2026-06-06T10:27:44.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1106
