@@ -4261,3 +4261,10 @@ Entries:
   id: 6986
   time: '2026-06-04T20:01:37.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1089
+- author: Rellu225
+  changes:
+    - type: Tweak
+      message: Tweaks to Lamplight shuttle.
+  id: 6987
+  time: '2026-06-06T06:59:52.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1083
