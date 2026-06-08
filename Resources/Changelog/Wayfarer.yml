@@ -4440,3 +4440,10 @@ Entries:
   id: 7009
   time: '2026-06-08T08:35:43.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1074
+- author: Rellu225
+  changes:
+    - type: Tweak
+      message: Tweaked RAEWS Array POI
+  id: 7010
+  time: '2026-06-08T18:35:45.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1133
