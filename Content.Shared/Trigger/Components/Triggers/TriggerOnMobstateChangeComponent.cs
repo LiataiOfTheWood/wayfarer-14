@@ -32,6 +32,15 @@ public sealed partial class TriggerOnMobstateChangeComponent : BaseTriggerOnXCom
     public bool PreventVore = false;
     // Floof End
 
+    // Wayfarer Start
+    /// <summary>
+    /// If false, this component will not trigger / is not allowed to work.
+    /// </summary>
+    [ViewVariables]
+    [DataField]
+    public bool Enabled = true;
+    // Wayfarer End
+
     /// <summary>
     /// If false, the trigger user will be the entity that caused the mobstate to change.
     /// If true, the trigger user will the entity that changed its mob state.
