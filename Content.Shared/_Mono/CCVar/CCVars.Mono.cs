@@ -20,7 +20,7 @@ public sealed partial class MonoCVars
     ///     Whether to enable cleanup debug mode, making it run much more often.
     /// </summary>
     public static readonly CVarDef<bool> CleanupDebug =
-        CVarDef.Create("mono.cleanup.debug", false, CVar.SERVERONLY);
+        CVarDef.Create("mono.cleanup.debug", true, CVar.SERVERONLY);
 
     /// <summary>
     ///     Whether to log every single entity cleanup deletes.
@@ -32,7 +32,7 @@ public sealed partial class MonoCVars
     ///     Don't delete non-grids at most this close to a grid.
     /// </summary>
     public static readonly CVarDef<float> CleanupMaxGridDistance =
-        CVarDef.Create("mono.cleanup.max_grid_distance", 30.0f, CVar.SERVERONLY);
+        CVarDef.Create("mono.cleanup.max_grid_distance", 45.0f, CVar.SERVERONLY); // Wayfarer: 30.0f<45.0f
 
     /// <summary>
     ///     How far away from any players can a mob be until it gets cleaned up.
