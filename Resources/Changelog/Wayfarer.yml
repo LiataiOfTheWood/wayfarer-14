@@ -4569,3 +4569,10 @@ Entries:
   id: 7026
   time: '2026-06-12T15:58:53.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1161
+- author: gaywolfgirl6
+  changes:
+    - type: Add
+      message: gay flag, nonbinary flag to Behir
+  id: 7027
+  time: '2026-06-12T16:27:09.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1157
