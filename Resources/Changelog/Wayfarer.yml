@@ -4611,3 +4611,10 @@ Entries:
   id: 7032
   time: '2026-06-15T18:48:10.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1174
+- author: noel573
+  changes:
+    - type: Add
+      message: More glasses now have vision correction.
+  id: 7033
+  time: '2026-06-15T22:28:02.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1175
