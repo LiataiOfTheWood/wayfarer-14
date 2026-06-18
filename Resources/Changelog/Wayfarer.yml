@@ -4652,3 +4652,10 @@ Entries:
   id: 7037
   time: '2026-06-18T00:34:34.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1183
+- author: VVersengt
+  changes:
+    - type: Add
+      message: Added separate whitelist to CGP Commodore
+  id: 7038
+  time: '2026-06-18T00:34:48.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1184
