@@ -4682,3 +4682,10 @@ Entries:
   id: 7041
   time: '2026-06-18T00:39:46.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1181
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: (Miles) Food rot V1
+  id: 7042
+  time: '2026-06-19T18:40:20.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1129
