@@ -4705,3 +4705,10 @@ Entries:
   id: 7044
   time: '2026-06-20T06:31:12.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1186
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: Reduced the chance for hybrid crossing to turn plants seedless.
+  id: 7045
+  time: '2026-06-20T06:35:18.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1188
