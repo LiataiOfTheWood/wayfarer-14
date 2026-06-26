@@ -13,6 +13,14 @@
       components:
       - MothFood
       # End Frontier: general moth digestion
+    # Wayfarer: mmmm food
+    carnivoreDigestible:
+      components:
+      - MothFood
+    herbivoreDigestible:
+      components:
+      - MothFood
+    # End Wayfarer
     isSpecialDigestibleExclusive: false # Frontier
   - type: SolutionContainerManager
     solutions:
@@ -30,8 +38,3 @@
     groups:
       - id: Food
       - id: Drink
-      - id: Medicine
-      - id: Cryogenic # Frontier
-      - id: Poison
-      - id: Narcotic
-      - id: Alcohol

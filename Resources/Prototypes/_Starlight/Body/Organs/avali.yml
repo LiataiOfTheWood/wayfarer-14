@@ -5,7 +5,25 @@
   name: stomach
   description: "The stomach of an avali, on closer inspection, actually consists of two stomachs."
   components:
-    # Wayfarer: Removed specialDigestible
+  - type: Stomach
+    # Wayfarer: Use our digestable:tm: system!
+    carnivoreDigestible:
+      tags:
+      - Meat
+      - Pill
+      - Crayon
+      - Paper
+      - AvianFood
+    herbivoreDigestible:
+      tags:
+      - Fruit
+      - Vegetable
+      - Flower
+      - Ambrosia
+      - Pill
+      - Crayon
+      - Paper
+    # End Wayfarer
   - type: SolutionContainerManager
     solutions:
       stomach:
@@ -70,6 +88,14 @@
   suffix: Avali
   description: "The lungs of an avali."
   components:
+  - type: Metabolizer
+    removeEmpty: true
+    solutionOnBody: false
+    solution: "Lung"
+    metabolizerTypes: [ Avali, Human ] #They get both so they can still breathe oxygen without us needing to add Resomi everywhere Human is listed # Wayfarer changed from Resomi.
+    groups:
+    - id: Gas
+      rateModifier: 100.0
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Avali/organs.rsi
     layers:

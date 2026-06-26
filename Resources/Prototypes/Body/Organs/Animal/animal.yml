@@ -17,6 +17,8 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
+  - type: Extractable # Wayfarer
+    grindableSolutionName: food
   - type: FlavorProfile
     flavors:
       - chicken # everything kinda tastes like chicken
@@ -80,13 +82,30 @@
   - type: SolutionContainerManager
     solutions:
       stomach:
-        maxVol: 40
+        maxVol: 50 # Wayfarer: 40<50
       food:
         maxVol: 5
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
   - type: Stomach
+    # Wayfarer: Custom digestible system
+    carnivoreDigestible:
+      tags:
+      - Meat
+      - Pill
+      - Crayon
+      - Paper
+    herbivoreDigestible:
+      tags:
+      - Fruit
+      - Vegetable
+      - Flower
+      - Ambrosia
+      - Pill
+      - Crayon
+      - Paper
+    # End Wayfarer
   - type: Metabolizer
     maxReagents: 3
     metabolizerTypes: [ Animal ]

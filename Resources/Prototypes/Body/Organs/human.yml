@@ -3,6 +3,17 @@
   parent: BaseItem
   abstract: true
   components:
+  # Wayfarer Start
+  - type: EmitSoundOnPickup
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnDrop
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnLand
+    sound:
+      collection: OrganInteraction
+  # Wayfarer End
   - type: Sprite
     sprite: Mobs/Species/Human/organs.rsi
   - type: Organ
@@ -78,7 +89,7 @@
   - type: Item
     size: Small
     heldPrefix: brain
-  
+
 - type: entity
   id: OrganHumanEyes
   parent: BaseHumanOrgan
@@ -203,6 +214,23 @@
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
   - type: Stomach
+    # Wayfarer: Custom digestible system
+    carnivoreDigestible:
+      tags:
+      - Meat
+      - Pill
+      - Crayon
+      - Paper
+    herbivoreDigestible:
+      tags:
+      - Fruit
+      - Vegetable
+      - Flower
+      - Ambrosia
+      - Pill
+      - Crayon
+      - Paper
+    # End Wayfarer
   # The stomach metabolizes stuff like foods and drinks.
   # TODO: Have it work off of the ent's solution container, and move this
   # to intestines instead.

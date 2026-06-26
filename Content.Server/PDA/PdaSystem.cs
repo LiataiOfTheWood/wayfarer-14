@@ -30,6 +30,7 @@ using Content.Shared._NF.Bank.Components; // Frontier
 using Content.Shared._NF.Shipyard.Components; // Frontier
 using Content.Server._NF.Shipyard.Systems; // Frontier
 using Content.Server._NF.SectorServices; // Frontier
+using Content.Server.RoundEnd; // Frontier
 
 namespace Content.Server.PDA
 {
@@ -49,8 +50,11 @@ namespace Content.Server.PDA
 
         private static DateTime ServerDate; // DeltaV - PDA
         [Dependency] private readonly SectorServiceSystem _sectorService = default!;
-        [Dependency] private readonly IGameTiming _timing = default!;
-        [Dependency] private readonly GameTicker _gameTicker = default!;
+        [Dependency] private readonly RoundEndSystem _roundEndSystem = default!; // Frontier
+
+
+        [Dependency] private readonly IGameTiming _timing = default!; // Wayfarer
+        [Dependency] private readonly GameTicker _gameTicker = default!; // Wayfarer
 
         public override void Initialize()
         {
@@ -246,20 +250,20 @@ namespace Content.Server.PDA
             if (TryComp<ShuttleDeedComponent>(pda.ContainedId, out var shuttleDeedComp))
                 ownedShipName = ShipyardSystem.GetFullName(shuttleDeedComp);
             // End Frontier: balance & ship deeds
-
-            // Send the remaining duration until shift end
-            // The client will calculate the absolute end time using its own RealTime
-            // This avoids clock synchronization issues between client and server
-            TimeSpan? shiftEndTime = null;
+            // Wayfarer Start
+            // Send the absolute UTC wall-clock time when the shift ends.
+            // Using DateTime.UtcNow (OS time) avoids any game-tick drift that occurs
+            // when the server runs slower than real-time under heavy load.
+            DateTime? shiftEndTime = null;
             if (_gameTicker.ShiftEndTime.HasValue)
             {
                 var timeRemaining = _gameTicker.ShiftEndTime.Value - _timing.RealTime;
                 if (timeRemaining > TimeSpan.Zero)
                 {
-                    // Send duration, client will add to its own RealTime
-                    shiftEndTime = timeRemaining;
+                    shiftEndTime = DateTime.UtcNow + timeRemaining;
                 }
             }
+            // End Wayfarer
 
             var state = new PdaUpdateState(
                 programs,
@@ -279,6 +283,7 @@ namespace Content.Server.PDA
                 },
                 balance, // Frontier
                 ownedShipName, // Frontier
+                _roundEndSystem.GetAutoCallTime(), // Frontier
                 pda.StationName,
                 showUplink,
                 hasInstrument,

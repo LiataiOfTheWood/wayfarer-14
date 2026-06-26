@@ -88,7 +88,7 @@
       children:
       - id: ResearchComputerCircuitboard
       - id: AnalysisComputerCircuitboard
-      - id: ComputerIFFCircuitboard
+      # - id: ComputerIFFCircuitboard # Wayfarer
     # Lathes
     - !type:AllSelector
       children:
@@ -349,8 +349,8 @@
       - id: TreasureHardDiskDrive
       - id: TreasureFlopDiskDrive
       - id: TreasureDatadiskEncrypted
-    - id: WeaponCaseShortDocumentsFilled
-      weight: 0.01
+#    - id: WeaponCaseShortDocumentsFilled # Wayfarer: Disabled
+#      weight: 0.01
 
 - type: entityTable
   id: TableDungeonLootScienceFlatpacks

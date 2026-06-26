@@ -88,6 +88,18 @@
       collection: FeroxiGnashes # Flooftier
     MonkeyScreeches: # Frontier
       collection: MonkeyScreeches # Frontier
+    # Wayfarer: Tweak emotes
+    Hisses:
+      collection: FelionoidHisses
+    Trill:
+      collection: FelionoidTrills
+    Scree:
+      collection: ResomiScrees
+    Call:
+      collection: ResomiCalls
+    Squawk:
+      collection: ResomiSquawk
+    # End Wayfarer
 
 - type: emoteSounds
   id: MaleVulpkanin
@@ -308,6 +320,8 @@
       collection: MaleYawn
     Gnash:
       collection: FeroxiGnashes
+    Thump: #Wayfarer: Tail thump
+      path: /Audio/Voice/Reptilian/reptilian_tailthump.ogg #Wayfarer: Tail thump
 
 - type: emoteSounds
   id: FemaleFeroxi
@@ -338,6 +352,8 @@
       collection: Weh
     Gnash:
       collection: FeroxiGnashes
+    Thump: #Wayfarer: Tail thump
+      path: /Audio/Voice/Reptilian/reptilian_tailthump.ogg #Wayfarer: Tail thump
 
 - type: emoteSounds
   id: UnisexChitinid
