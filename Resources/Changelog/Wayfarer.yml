@@ -4769,3 +4769,10 @@ Entries:
   id: 7052
   time: '2026-06-26T03:22:41.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1204
+- author: Rellu225
+  changes:
+    - type: Add
+      message: SI Rekindle paramedic shuttle.
+  id: 7053
+  time: '2026-06-26T03:23:35.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1178
