@@ -4785,3 +4785,10 @@ Entries:
   id: 7054
   time: '2026-06-26T03:24:59.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1159
+- author: amareyeen
+  changes:
+    - type: Add
+      message: PMC armored jackets as alternative loadouts to the Merc web vests
+  id: 7055
+  time: '2026-06-26T04:18:11.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1230
