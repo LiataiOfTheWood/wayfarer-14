@@ -4776,3 +4776,12 @@ Entries:
   id: 7053
   time: '2026-06-26T03:23:35.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1178
+- author: VVersengt
+  changes:
+    - type: Tweak
+      message: >-
+        vgroids now contain more enemies, and salvager vgroids are now more
+        dangerous.
+  id: 7054
+  time: '2026-06-26T03:24:59.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1159
