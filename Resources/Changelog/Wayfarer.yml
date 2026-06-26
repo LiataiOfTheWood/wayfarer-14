@@ -4792,3 +4792,12 @@ Entries:
   id: 7055
   time: '2026-06-26T04:18:11.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1230
+- author: DevArchwave
+  changes:
+    - type: Remove
+      message: Removed the trade mall.
+    - type: Tweak
+      message: Cargo depots have been revamped.
+  id: 7056
+  time: '2026-06-26T18:16:39.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/993
