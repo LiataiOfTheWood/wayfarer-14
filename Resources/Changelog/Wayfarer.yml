@@ -4760,3 +4760,12 @@ Entries:
   id: 7051
   time: '2026-06-26T03:20:43.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1234
+- author: gaywolfgirl6
+  changes:
+    - type: Add
+      message: MercTechFab to Behir, Hellbat.
+    - type: Tweak
+      message: Behir Guidebook, behir.png
+  id: 7052
+  time: '2026-06-26T03:22:41.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1204
