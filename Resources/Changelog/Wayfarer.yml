@@ -4801,3 +4801,12 @@ Entries:
   id: 7056
   time: '2026-06-26T18:16:39.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/993
+- author: Possumongus
+  changes:
+    - type: Tweak
+      message: Made gas canisters and nades more expensive
+    - type: Tweak
+      message: Rebalanced andesite and chromite asteroids to be more useful
+  id: 7057
+  time: '2026-06-27T02:17:24.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1200
