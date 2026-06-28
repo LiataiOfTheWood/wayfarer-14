@@ -4903,3 +4903,14 @@ Entries:
   id: 7068
   time: '2026-06-28T21:09:07.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1193
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: Pacifism is no longer tied to Pious.
+    - type: Tweak
+      message: >-
+        Only Pious characters with the Pacifism trait can use religious books'
+        innate ability to heal others.
+  id: 7069
+  time: '2026-06-28T21:12:18.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1189
