@@ -4892,3 +4892,14 @@ Entries:
   id: 7067
   time: '2026-06-28T21:07:02.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1222
+- author: VVersengt
+  changes:
+    - type: Tweak
+      message: Turrets will now target you through crates and windows.
+    - type: Tweak
+      message: >-
+        Turrets now turn slower, have a longer range and are less accurate for
+        their first few shots.
+  id: 7068
+  time: '2026-06-28T21:09:07.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1193
