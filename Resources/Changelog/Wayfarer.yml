@@ -4840,3 +4840,12 @@ Entries:
   id: 7061
   time: '2026-06-28T20:56:30.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1253
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: >-
+        Wayfarers can now change their job titles and icons directly from their
+        IDs.
+  id: 7062
+  time: '2026-06-28T20:56:56.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1251
