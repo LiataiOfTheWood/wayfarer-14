@@ -4914,3 +4914,12 @@ Entries:
   id: 7069
   time: '2026-06-28T21:12:18.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1189
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: >-
+        The ID that can change its job title and icon on the fly must be
+        purchased from a PTECH.
+  id: 7070
+  time: '2026-06-28T23:30:10.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1258
