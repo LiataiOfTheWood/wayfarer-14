@@ -4936,3 +4936,10 @@ Entries:
   id: 7071
   time: '2026-06-29T05:45:08.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1259
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: Emergency Responders now have access to a wider variety of clothes.
+  id: 7072
+  time: '2026-06-29T05:45:29.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1260
